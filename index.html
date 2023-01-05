@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS conditional Statement</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        div#box2 {
+            width: 400px;
+            height: 400px;
+            background-color: green;
+        }
+    </style>
+    <script src="./js/script.js"></script>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3" style="width: 400px; height: 400px; background-color: blue;"></div>
+    <!-- <script>
+        var time = prompt('Enter time');
+        //alert("Before typecasting " + typeof time);
+        var time = parseInt(time);
+        //alert("After typecasting " + typeof time);
+
+        if (time >= 6 && time < 12) {
+            alert('Good Morning');
+        }
+        else if (time >= 12 && time < 18) {
+            alert("Good Evening");
+        }
+        else {
+            alert(`Good Night`);
+        }
+    </script> -->
+
+
+    <script>
+        var age = confirm("Are you 18+ ");
+        // alert(typeof age);
+        if (age == true) {
+            alert("you eligible to vote");
+        }
+        else {
+            alert("You are not eleigible to vote");
+        }
+    </script>
+</body>
+
+</html>
